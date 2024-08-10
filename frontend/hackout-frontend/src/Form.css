@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,700;1,600&display=swap');
+form{
+  border: 3px solid;
+  border-radius: 5vh;
+  max-width: 40vh;
+  padding: 3vh 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 12px 12px 0 #000;
+  transition: all  0.3s ease ;
+}
+form:hover{
+  transform: translate(-5px, -5px);
+  box-shadow: 17px 17px 0 #000;
+  color: #000;
+}
+form label{
+  margin:0.5vh;
+  font-size: 2.5vh ;
+  font-weight: bold;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #fff, #14281D);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Submitbtn{
+  margin-top: 2vh;
+  padding:2vh 5vh;
+  background: #C2A878;
+  color: white;
+  font-family: inherit;
+  padding: 0.45em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  transition: all 0.5s ease;
+}
+
+input{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.4s ease;
+}
+input:hover{
+  display: flex;
+  padding: 1.5vh;
+  align-items: end;
+  outline: none;
+}
+input:focus{
+  outline: none;
+}
